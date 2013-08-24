@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:background="#e1e1e1"
+    tools:context=".IntroSplashActivity" >
+    
+    <ImageView
+        android:id="@+id/colour_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/colour_strip" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tree" />
+
+    <ImageView
+        android:id="@+id/promoter_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="-50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sundaram_logo"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/treemapindia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:visibility="invisible"
+        android:text="Tree"
+        android:textColor="#468966"
+        android:textSize="60sp"
+        android:shadowColor="#2c5741"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="1" />
+
+    <TextView
+        android:id="@+id/treemapindia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/treemapindia"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        android:text="Map"
+        android:textColor="#3c3222"
+        android:textSize="60sp"
+        android:shadowColor="#2f2310"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="1" />
+    
+     <TextView
+        android:id="@+id/treemapindia3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+         android:layout_below="@+id/treemapindia2"
+        android:text="India"
+        android:textColor="#7c7c7c"
+        android:textSize="55sp"
+        android:shadowColor="#434343"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="1"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="all"><item android:id="@+id/nails" android:titleCondensed="Nails" android:title="Nails"></item><item android:id="@+id/posters" android:titleCondensed="Posters" android:title="Posters"></item><item android:id="@+id/wires" android:titleCondensed="Wires" android:title="Wires"></item><item android:id="@+id/treeguards" android:titleCondensed="Tree Guards" android:title="Tree Guards"></item><item android:id="@+id/none" android:titleCondensed="None" android:title="None"></item></group>
+    <item android:id="@+id/other" android:titleCondensed="Other" android:title="Other"></item>
+</menu>

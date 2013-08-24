@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="single"><item android:id="@+id/diseased" android:titleCondensed="Diseased" android:title="Diseased"></item><item android:id="@+id/healthy" android:titleCondensed="Healthy" android:title="Healthy"></item><item android:id="@+id/lopped" android:titleCondensed="Heavily Lopped" android:title="Heavily Lopped"></item><item android:id="@+id/injured" android:titleCondensed="Injured" android:title="Injured"></item></group>
+</menu>

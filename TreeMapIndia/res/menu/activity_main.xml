@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/outsidebounds" android:titleCondensed="Outside" android:title="Outside Boundary"></item>
+    <item android:id="@+id/insidebounds" android:titleCondensed="Enclosed" android:title="Enclosed Boundary"></item>
+</menu>

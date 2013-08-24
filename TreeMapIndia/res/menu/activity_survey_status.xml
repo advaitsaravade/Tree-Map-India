@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="all"><item android:id="@+id/rare" android:titleCondensed="Rare" android:title="Rare"></item><item android:id="@+id/vulnerable" android:titleCondensed="Vulnerable" android:title="Vulnerable"></item><item android:id="@+id/endangered" android:titleCondensed="Endangered" android:title="Endangered"></item><item android:id="@+id/pest" android:titleCondensed="Pest Affected" android:title="Pest Affected"></item><item android:id="@+id/refer" android:titleCondensed="Refer to Department" android:title="Refer to Department"></item><item android:id="@+id/none" android:titleCondensed="None" android:title="None"></item>
+    
+</group>
+    <item android:id="@+id/other" android:titleCondensed="Other" android:title="Other"></item>
+</menu>

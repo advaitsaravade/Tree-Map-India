@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tree Map India</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Enter Data</string>
+    <string name="title_activity_tree_survey_form">Tree Survey Form</string>
+
+    <string-array name="trees_array">
+        <item>Pachunda</item>
+        <item>Striped Ebony</item>
+        <item>Maha Dhawda</item>
+        <item>Mandarin Orange</item>
+        <item>Nuda</item>
+        <item>Benjamina</item>
+        <item>Dhawda</item>
+        <item>Nandruk</item>
+        <item>Khatkhati</item>
+        <item>Chikkoo</item>
+        <item>Tambat</item>
+        <item>Tambat</item>
+        <item>Bhoma</item>
+        <item>Sitaphal</item>
+        <item>Ramphal</item>
+        <item>Ajaan</item>
+        <item>Pipri</item>
+        <item>Payar</item>
+        <item>Loquat</item>
+        <item>Bakul</item>
+        <item>Kaju</item>
+        <item>Umbar</item>
+        <item>Ylang-ylang</item>
+        <item>Idlimbu</item>
+        <item>Wawal</item>
+        <item>Jayphal</item>
+        <item>Ballon Tree</item>
+        <item>Kanak Champa</item>
+        <item>Asana</item>
+        <item>Muchkunda</item>
+        <item>Phanas</item>
+        <item>Kharwat</item>
+        <item>Phudgus</item>
+        <item>Kavthi Chafa</item>
+        <item>Kadukawath</item>
+        <item>Sonchafa</item>
+        <item>Avacado</item>
+        <item>False Lime</item>
+        <item>Papnas</item>
+        <item>Rudraksha</item>
+        <item>Rubber Tree</item>
+        <item>Beheda</item>
+        <item>Beheda</item>
+        <item>Bread-fruit Tree</item>
+        <item>Cocoa</item>
+        <item>Trumpet Tree</item>
+        <item>Zapota</item>
+        <item>Motha Karmal</item>
+        <item>Singapore Cherry</item>
+        <item>Jacquinia</item>
+        <item>Gol</item>
+        <item>Moha</item>
+        <item>Walunj</item>
+        <item>Kailaspati</item>
+        <item>Ashok</item>
+        <item>Ashok</item>
+        <item>Awala</item>
+        <item>Rudrakshi</item>
+        <item>Suru</item>
+        <item>Dracaena</item>
+        <item>Elephants Foot Palm</item>
+        <item>Yucca</item>
+        <item>Nopal Cactus</item>
+        <item>Kevada</item>
+        <item>Candelabra Plant</item>
+        <item>Sher</item>
+        <item>Mountain Ebony</item>
+        <item>Apta</item>
+        <item>Pivla Kanchan</item>
+        <item>Kanchan</item>
+        <item>Mogli Erand</item>
+        <item>Muchkunda</item>
+        <item>Kanchan Raj</item>
+        <item>Orchid Tree</item>
+        <item>Gulabi Kanchan</item>
+        <item>Roxburghs Bauhinia</item>
+        <item>Kaushi</item>
+        <item>Warang</item>
+        <item>Ganer</item>
+        <item>Dombeya</item>
+        <item>Bhendi Gulab</item>
+        <item>Kutri</item>
+        <item>Paper Mulberry</item>
+        <item>Tapioca</item>
+        <item>Chinar</item>
+        <item>Erand</item>
+        <item>Karnikar</item>
+        <item>Potato Tree</item>
+        <item>Neer Phanas</item>
+        <item>Kandol</item>
+        <item>Papayi</item>
+        <item>Ghatbor</item>
+        <item>Putranjiva</item>
+        <item>Putranjiva</item>
+        <item>Apple</item>
+        <item>Khirni</item>
+        <item>Bor</item>
+        <item>Bor</item>
+        <item>Gondan</item>
+        <item>Fried Egg Plant</item>
+        <item>Tarsi</item>
+        <item>Temru</item>
+        <item>Hanuman Phal</item>
+        <item>Humb</item>
+        <item>Star Apple</item>
+        <item>Arjun</item>
+        <item>Arjun</item>
+        <item>Arjun</item>
+        <item>Ankol</item>
+        <item>Charoli</item>
+        <item>Temburni</item>
+        <item>Magnolia</item>
+        <item>Amba</item>
+        <item>Travelers Palm</item>
+        <item>Triangle Leaf Tree</item>
+        <item>Ray Awala</item>
+        <item>Henkal</item>
+        <item>Henkal</item>
+        <item>Poplar</item>
+        <item>Bhokar</item>
+        <item>Bhokar</item>
+        <item>Sandbox Tree</item>
+        <item>Fiddle Head Jatropha</item>
+        <item>Fiddle Head Jatropha</item>
+        <item>Paras Bhendi</item>
+        <item>Kapila</item>
+        <item>Cherry Blossom</item>
+        <item>Newar</item>
+        <item>Shedri</item>
+        <item>Pimpal</item>
+        <item>Pimpal</item>
+        <item>Tree Antigonon</item>
+        <item>Sea-grape Tree</item>
+        <item>Tuti</item>
+        <item>Scarlet Cordia</item>
+        <item>Wad</item>
+        <item>Wad</item>
+        <item>Kallu Goli</item>
+        <item>Phalsa</item>
+        <item>Kumbha</item>
+        <item>Buddha Coconut</item>
+        <item>Buddha Coconut</item>
+        <item>Anjeer</item>
+        <item>Anjeer</item>
+        <item>Bibba</item>
+        <item>Burali Wad</item>
+        <item>Fiddleleaf Fig</item>
+        <item>Burali Wad</item>
+        <item>Panki</item>
+        <item>Badam</item>
+        <item>Samudraphal</item>
+        <item>Mendi</item>
+        <item>Barbados Cherry</item>
+        <item>Anjani</item>
+        <item>Alu</item>
+        <item>Chandan</item>
+        <item>Tea Olive</item>
+        <item>Agnimanth</item>
+        <item>Kajra</item>
+        <item>Tagar</item>
+        <item>African Mangosteine</item>
+        <item>Par Jambhul</item>
+        <item>Kokam</item>
+        <item>Allspice</item>
+        <item>Bhutiya</item>
+        <item>Dikemali</item>
+        <item>Seetaranjan</item>
+        <item>Coffee</item>
+        <item>Kalabash</item>
+        <item>Kalabash</item>
+        <item>Nana</item>
+        <item>Nana</item>
+        <item>Kuda</item>
+        <item>Tambada Kuda</item>
+        <item>Raykuda</item>
+        <item>Kala Kuda</item>
+        <item>Bartondi</item>
+        <item>Jamb</item>
+        <item>Undi</item>
+        <item>Tamhan</item>
+        <item>Snow Bush</item>
+        <item>Kadamb</item>
+        <item>Olive Tree</item>
+        <item>Dalimb</item>
+        <item>Dalchini</item>
+        <item>Dalchini</item>
+        <item>Nagchapha</item>
+        <item>Nilgiri</item>
+        <item>Nilgiri</item>
+        <item>Nilgiri</item>
+        <item>Austalian Babhul</item>
+        <item>Austalian Babhul</item>
+        <item>Motha Satween</item>
+        <item>Satween</item>
+        <item>Golden Bottel Brush</item>
+        <item>Golden Bottel Brush</item>
+        <item>Bottle Brush</item>
+        <item>Bitti</item>
+        <item>Bitti</item>
+        <item>Kanher</item>
+        <item>Madagascar Palm</item>
+        <item>Phetra</item>
+        <item>Petrea</item>
+        <item>Peru</item>
+        <item>Jambhul</item>
+        <item>Jambhul</item>
+        <item>Jambhul</item>
+        <item>Mandar</item>
+        <item>Surangi</item>
+        <item>Sukanu</item>
+        <item>Madagascar Almond</item>
+        <item>Gela</item>
+        <item>Gulmendi</item>
+        <item>Iran</item>
+        <item>Fire Bush</item>
+        <item>Duranta</item>
+        <item>Copper Plant</item>
+        <item>Kalam</item>
+        <item>Parijatak</item>
+        <item>Nilgiri</item>
+        <item>Mussaenda</item>
+        <item>Pandhara</item>
+        <item>Shiwan</item>
+        <item>Pandhara</item>
+        <item>Hedu</item>
+        <item>Petari</item>
+        <item>Pitch Apple</item>
+        <item>Pendro</item>
+        <item>Kala Umber</item>
+        <item>Pandhra Chapha</item>
+        <item>Lal Chapha</item>
+        <item>Lal Chapha</item>
+        <item>Sag</item>
+        <item>Ran Kadhilimb</item>
+        <item>Kadhilimb</item>
+        <item>Maharukh</item>
+        <item>Black Pearl</item>
+        <item>Black Wood</item>
+        <item>Silver Oak</item>
+        <item>Dandus</item>
+        <item>Phanshi</item>
+        <item>Fern Tree</item>
+        <item>Laxmi Taru</item>
+        <item>Shisav</item>
+        <item>Kunti</item>
+        <item>Spectacular Cassia</item>
+        <item>Shisam</item>
+        <item>Spectacular Cassia</item>
+        <item>Spectacular Cassia</item>
+        <item>Tree Of Fragrance</item>
+        <item>Tree Of Fragrance</item>
+        <item>Candle Tree</item>
+        <item>Brazillian Pepper</item>
+        <item>Ambada</item>
+        <item>Waras</item>
+        <item>Pichkari</item>
+        <item>Cockspur Coral Tree</item>
+        <item>Cockspur Coral Tree</item>
+        <item>Toon</item>
+        <item>Amaltas</item>
+        <item>Litchi</item>
+        <item>Litchi</item>
+        <item>Sambucus</item>
+        <item>Markhamia</item>
+        <item>Padal</item>
+        <item>Padal</item>
+        <item>Pilinut</item>
+        <item>Kusumb</item>
+        <item>Katsagon</item>
+        <item>Seeta Ashok</item>
+        <item>Kadulimb</item>
+        <item>Large-leaved Khaya</item>
+        <item>Mahogany</item>
+        <item>Mahogany</item>
+        <item>Kakad</item>
+        <item>Bel</item>
+        <item>Tecoma</item>
+        <item>Tecoma</item>
+        <item>Flame Bean</item>
+        <item>Ritha</item>
+        <item>Ritha</item>
+        <item>Urvashi</item>
+        <item>Balage</item>
+        <item>Balage</item>
+        <item>Chinch</item>
+        <item>Red Cassia</item>
+        <item>Jawa Cassia</item>
+        <item>Jawa Cassia</item>
+        <item>Hadga</item>
+        <item>Hadga</item>
+        <item>Horse Cassia</item>
+        <item>Behru</item>
+        <item>Gulabi Bahawa</item>
+        <item>Motha Tarwad</item>
+        <item>Motha Tarwad</item>
+        <item>Motha Tarwad</item>
+        <item>Bimbal</item>
+        <item>Beeja</item>
+        <item>Beeja</item>
+        <item>Australian Chestnut</item>
+        <item>Padauk</item>
+        <item>Padauk</item>
+        <item>Khaya</item>
+        <item>Khaya</item>
+        <item>Brahmadand</item>
+        <item>Brahmadand</item>
+        <item>Raktarohida</item>
+        <item>Raktarohida</item>
+        <item>Moi</item>
+        <item>Gum Guaiacum</item>
+        <item>Raktachandan</item>
+        <item>Anjan</item>
+        <item>Dwarf Tecoma</item>
+        <item>Hinganbet</item>
+        <item>Kavath</item>
+        <item>Kavath</item>
+        <item>Salai</item>
+        <item>Medhshingi</item>
+        <item>Kamrak</item>
+        <item>Giripushpa</item>
+        <item>Dalmara</item>
+        <item>Lal Karanj</item>
+        <item>Vaywaran</item>
+        <item>Karanj</item>
+        <item>Buch Panagara</item>
+        <item>Mokha</item>
+        <item>Pangara</item>
+        <item>Kala Palas</item>
+        <item>Palas</item>
+        <item>Ratangunj</item>
+        <item>Potka Shirish</item>
+        <item>Powder Puff</item>
+        <item>Powder Puff</item>
+        <item>Tokphal</item>
+        <item>Neelmohor</item>
+        <item>Chhatri Babhul</item>
+        <item>Sigamkathi</item>
+        <item>Khair</item>
+        <item>Khair</item>
+        <item>Vedi Babhul</item>
+        <item>Dev Babhul</item>
+        <item>Dev Babhul</item>
+        <item>Hivar</item>
+        <item>Babhul</item>
+        <item>Babhul</item>
+        <item>Dividivi</item>
+        <item>Pandhra Khair</item>
+        <item>Kala Shirish</item>
+        <item>Shankasur</item>
+        <item>Manimohor</item>
+        <item>Gulmohor</item>
+        <item>Subabhul</item>
+        <item>Chenduphali</item>
+        <item>Shami</item>
+        <item>Shami</item>
+        <item>Chinchva</item>
+        <item>Tambadsheng</item>
+        <item>Tambadsheng</item>
+        <item>Shirish</item>
+        <item>Kinhai</item>
+        <item>Brazillian Ironwood</item>
+        <item>Shewga</item>
+        <item>Vilayati Chinch</item>
+        <item>Rain Tree</item>
+        <item>Bakan Neem</item>
+        <item>Bakan Neem</item>
+        <item>Buch</item>
+        <item>Tetu</item>
+        <item>Khadshingi</item>
+        <item>Gorakh Chinch</item>
+        <item>Arara Nut</item>
+        <item>Pandhri Sawar</item>
+        <item>Delhi Sawar</item>
+        <item>Delhi Sawar</item>
+        <item>Umbrella Tree</item>
+        <item>Umbrella Tree</item>
+        <item>Shaving Brush</item>
+        <item>Jungli Badam</item>
+        <item>Jungli Badam</item>
+        <item>Sawar</item>
+        <item>Pink Trumpet</item>
+        <item>Golden Trumpet</item>
+        <item>Purple Trumpet</item>
+        <item>Taheboo Tree</item>
+        <item>Yellow Trumpet Tree</item>
+        <item>Yellow Trumpet Tree</item>
+        <item>Manila Palm</item>
+        <item>Manila Palm</item>
+        <item>Supari</item>
+        <item>Carpentaria Palm</item>
+        <item>Bherli Mad</item>
+        <item>Bherli Mad</item>
+        <item>Bherli Mad</item>
+        <item>Red Leaf Palm</item>
+        <item>Hurricane Palm</item>
+        <item>Triangle Palm</item>
+        <item>Triangle Palm</item>
+        <item>Red Neck Palm</item>
+        <item>Kentia Palm</item>
+        <item>Champagne Palm</item>
+        <item>Champagne Palm</item>
+        <item>Thief Palm</item>
+        <item>Majesty Palm</item>
+        <item>Bottle Palm</item>
+        <item>Bottle Palm</item>
+        <item>Montgomery Palm</item>
+        <item>Foxtail Palm</item>
+        <item>Areca Palm</item>
+        <item>Areca Palm</item>
+        <item>Areca Palm</item>
+        <item>Lipstick Palm</item>
+        <item>Mac Arthur Palm</item>
+        <item>Mac Arthur Palm</item>
+        <item>Bitten Palm</item>
+        <item>American Oil Palm</item>
+        <item>Jelly Palm</item>
+        <item>Naral</item>
+        <item>Oil Palm</item>
+        <item>Canary Island Date Palm</item>
+        <item>Shelu</item>
+        <item>Dwarf Date Palm</item>
+        <item>Cliff Date Palm</item>
+        <item>Shindi</item>
+        <item>Shindi</item>
+        <item>Licuri Palm</item>
+        <item>Queen Palm</item>
+        <item>Queen Palm</item>
+        <item>Queen Palm</item>
+        <item>Wallichs Palm</item>
+        <item>Formosa Palm</item>
+        <item>Bamboo Palm</item>
+        <item>Mexican Blue Palm</item>
+        <item>Hispaniolan Silver Thatch</item>
+        <item>Carnauba Wax Palm</item>
+        <item>Talipot</item>
+        <item>Blue Latan Palm</item>
+        <item>Red Latan Palm</item>
+        <item>Yellow Latan Palm</item>
+        <item>Vanautu Fan Palm</item>
+        <item>Vanautu Fan Palm</item>
+        <item>Chinese Fam Palm</item>
+        <item>Foot Stool Palm</item>
+        <item>Fiji Fan Palm</item>
+        <item>Thatch Palm</item>
+        <item>California Fan Palm</item>
+        <item>California Fan Palm</item>
+        <item>Everglades Palm</item>
+        <item>European Fan Palm</item>
+        <item>Silver Palm</item>
+        <item>Tad</item>
+        <item>Ravan Tad</item>
+        <item>Cabage Palm</item>
+        <item>Cabage Palm</item>
+        <item>Bay Palmetto</item>
+        <item>White Cypress</item>
+        <item>Pine</item>
+        <item>Pine</item>
+        <item>Agra Suru</item>
+        <item>Italian Cypress</item>
+        <item>Bhutan Cypress</item>
+        <item>Chinese Juniper</item>
+        <item>Fern Pine</item>
+        <item>Fern Pine</item>
+        <item>Morpankhi</item>
+        <item>Morpankhi</item>
+        <item>Kauri Pine</item>
+        <item>Bunya Pine</item>
+        <item>New Caledonian Pine</item>
+        <item>Hoop Pine</item>
+        <item>Christmas Tree</item>
+        <item>Klinki Pine</item>
+        <item>Yellow Wood</item>
+        <item>Bald Cypress</item>
+        <item>Queen Sago</item>
+        <item>Thakal</item>
+        <item>Sago Palm</item>
+        <item>Indonesian Cycas</item>
+        <item>Samble</item>
+        <item>Andaman Cycas</item>
+        <item>Thorny Bamboo</item>
+        <item>Buddhas Belly Bamboo</item>
+        <item>Golden Bamboo</item>
+        <item>Giant Bamboo</item>
+        <item>Velu</item>
+        <item>Philippines Bamboo</item>
+        <item>Garari</item>
+        <item>Bayi</item>
+        <item>Golden Rain Tree</item>
+        <item>Cape Wattle</item>
+    </string-array>
+
+    <string name="title_activity_gpsservice">GPS Service</string>
+
+</resources>

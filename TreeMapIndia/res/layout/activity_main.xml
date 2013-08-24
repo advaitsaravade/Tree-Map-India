@@ -1,0 +1,220 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="-3dp"
+    android:background="@drawable/back"
+    tools:context=".Main" >
+    
+<RelativeLayout 
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+   <ImageView
+        android:id="@+id/colour_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/colour_strip" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_centerHorizontal="true"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp"
+       android:id="@+id/layout5"
+       android:padding="10dp" >
+
+
+    <TextView
+        android:id="@+id/treemapindia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Start"
+        android:textColor="#468966"
+        android:textSize="70sp"
+        android:shadowColor="#2c5741"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="1" />
+    </LinearLayout>
+
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/layout5"
+       android:layout_marginLeft="0dp"
+       android:layout_marginTop="15dp"
+       android:layout_marginRight="5dp"
+       android:textColor="#B64926"
+       android:textColorHint="#B64926"
+       android:ems="10"
+       android:textSize="20sp"
+       android:hint="Ward Number"
+       android:inputType="phone"
+       android:layout_centerHorizontal="true"
+       android:padding="10dp" >
+
+   </EditText>
+
+   <EditText
+       android:id="@+id/editText2"
+       android:layout_width="250dp"
+       android:layout_height="54dp"
+       android:layout_below="@+id/editText1"
+       android:layout_marginTop="15dp"
+       android:textSize="20sp"
+       android:layout_marginLeft="5dp"
+       android:ems="10"
+       android:textColor="#B64926"
+       android:textColorHint="#B64926"
+       android:hint="Cluster Number"
+       android:layout_centerHorizontal="true"
+       android:inputType="phone"
+       android:padding="10dp"
+       android:layout_marginBottom="25dp" >
+
+       </EditText>
+   <requestFocus />
+
+   <Button
+    android:id="@+id/menuselect"
+    android:layout_width="245dp"
+    android:layout_height="60dp"
+    android:layout_below="@id/editText2"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:text="Select Boundary Type" 
+    android:layout_marginBottom="25dp"/>
+   
+   <Button
+    android:id="@+id/tree_outside_type"
+    android:layout_width="245dp"
+    android:layout_height="60dp"
+    android:layout_below="@id/menuselect"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:visibility="gone"
+    android:text="Select Tree Near" 
+    android:layout_marginBottom="25dp"/>
+   
+   <LinearLayout
+       android:id="@+id/layout3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_below="@id/tree_outside_type"
+       android:layout_centerHorizontal="true"
+       android:visibility="gone" >
+   <Button
+    android:id="@+id/proptype"
+    android:layout_width="245dp"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:text="Select Property Type"  />
+   
+   <EditText
+    android:id="@+id/owner"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/proptype"
+    android:layout_centerHorizontal="true"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="Owner"
+    android:layout_marginTop="15dp"
+    android:padding="10dp"
+    android:ems="10"
+    android:inputType="textPersonName" />
+   
+   <EditText
+    android:id="@+id/description"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/owner"
+    android:layout_centerHorizontal="true"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="Description"
+    android:padding="10dp"
+    android:layout_marginTop="15dp"
+    android:ems="10"
+    android:inputType="text" />
+   
+   <EditText
+    android:id="@+id/houseno"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/description"
+    android:layout_centerHorizontal="true"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="House Number"
+    android:padding="10dp"
+    android:layout_marginTop="15dp"
+    android:ems="10"
+    android:inputType="number" />
+   
+   <EditText
+    android:id="@+id/area"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/houseno"
+    android:layout_centerHorizontal="true"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="Area (sq.ft.)"
+    android:padding="10dp"
+    android:layout_marginTop="15dp"
+    android:ems="10"
+    android:inputType="number" />
+   
+   <EditText
+    android:id="@+id/surveyno"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/area"
+    android:layout_centerHorizontal="true"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="Survey Number"
+    android:padding="10dp"
+    android:layout_marginTop="15dp"
+    android:ems="10"
+    android:inputType="number" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/layout3"
+       android:layout_centerHorizontal="true" >
+   
+<Button
+    android:id="@+id/addtreesbut"
+    android:layout_width="240dp"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="35dp"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/addtreesbut"
+    android:hapticFeedbackEnabled="true"
+    android:text="Add Trees"
+    android:textColor="#ffffff" />
+</LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="single"><item android:id="@+id/open" android:titleCondensed="Open Soil" android:title="Open Soil"></item><item android:id="@+id/tilled" android:titleCondensed="Tilled" android:title="Tilled"></item><item android:id="@+id/lopped" android:titleCondensed="Cemented" android:title="Cemented"></item><item android:id="@+id/compressed" android:titleCondensed="Compressed Soil" android:title="Compressed Soil"></item><item android:id="@+id/ft0" android:titleCondensed="2 Feet Ground" android:title="2 Feet Ground"></item>
+    <item android:id="@+id/ft1" android:titleCondensed="2-4 Feet" android:title="2-4 Feet"></item>
+    <item android:id="@+id/ft2" android:titleCondensed="4-6 Feet" android:title="4-6 Feet"></item>
+    <item android:id="@+id/above" android:titleCondensed="6 Feet and Above" android:title="6 Feet And Above"></item>
+</group>
+    
+</menu>

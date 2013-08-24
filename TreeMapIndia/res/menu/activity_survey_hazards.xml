@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="single"><item android:id="@+id/drainage" android:titleCondensed="Growing Against Drain" android:title="Growing Against Drain"></item><item android:id="@+id/wall" android:titleCondensed="Growing Against Wall" android:title="Growing Against Wall"></item><item android:id="@+id/none" android:titleCondensed="None" android:title="None"></item><item android:id="@+id/other" android:titleCondensed="Other" android:title="Other"></item>
+</group>
+    
+</menu>

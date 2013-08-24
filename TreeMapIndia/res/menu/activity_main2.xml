@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/type1" android:titleCondensed="Type 1" android:title="Property Type 1"></item>
+    <item android:id="@+id/type2" android:titleCondensed="Type 2" android:title="Property Type 2"></item>
+    <item android:id="@+id/type3" android:titleCondensed="Type 3" android:title="Property Type 3"></item>
+    <item android:id="@+id/type4" android:titleCondensed="Type 4" android:title="Property Type 4"></item>
+    <item android:id="@+id/type5" android:titleCondensed="Type 5" android:title="Property Type 5"></item>
+
+</menu>

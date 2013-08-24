@@ -1,0 +1,281 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="-3dp"
+    android:background="@drawable/back"
+    tools:context=".TreeSurveyForm" >
+    
+<RelativeLayout 
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+   <ImageView
+        android:id="@+id/colour_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/colour_strip" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="fill_parent"
+       android:layout_centerHorizontal="true"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp"
+       android:id="@+id/layout5"
+       android:padding="10dp" >
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Survey"
+        android:textColor="#3c3222"
+        android:textSize="70sp"
+        android:shadowColor="#2f2310"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="1" />
+    </LinearLayout>
+<TextView
+        android:id="@+id/basictxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#468966"
+        android:textSize="30sp"
+        android:text="Information"
+        android:layout_marginTop="30dp" />
+
+   <EditText
+       android:id="@+id/treenumber"
+       android:layout_width="250dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/basictxt"
+       android:layout_marginLeft="0dp"
+       android:layout_marginTop="15dp"
+       android:layout_marginRight="5dp"
+       android:textColor="#B64926"
+       android:textColorHint="#B64926"
+       android:ems="10"
+       android:textSize="20sp"
+       android:hint="Tree Number"
+       android:inputType="number"
+       android:layout_centerHorizontal="true"
+       android:padding="10dp" >
+
+   </EditText>
+
+    <AutoCompleteTextView
+    android:id="@+id/autocomplete_treecommonename"
+    android:layout_width="250dp"
+    android:layout_height="54dp"
+    android:layout_below="@+id/treenumber"
+    android:layout_marginTop="15dp"
+    android:textSize="20sp"
+    android:layout_marginLeft="5dp"
+    android:textColor="#B64926"
+    android:textColorHint="#B64926"
+    android:hint="Tree Name"
+    android:layout_centerHorizontal="true"
+    android:inputType="text"
+    android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/treeheighttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autocomplete_treecommonename"
+        android:layout_centerHorizontal="true"
+        android:textColor="#468966"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:text="Height of Tree" />
+    <LinearLayout
+            android:id="@+id/heightlayout2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/treeheighttxt"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+    <Button
+    android:id="@+id/menuselect"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:text="Select Measurement" 
+    android:layout_marginBottom="25dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/seekbar_custom"
+             android:thumb="@drawable/seekbutton_custom"
+             android:visibility="gone" />
+        <TextView
+            android:id="@+id/heightinft"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#B64926"
+            android:textSize="30dp"
+            android:text=""
+            android:visibility="gone" />
+        
+        </LinearLayout>
+        
+    
+    
+    <TextView
+        android:id="@+id/girthtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heightlayout2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#468966"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:text="Girth of Tree" />
+    <LinearLayout
+            android:id="@+id/girthlayout2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/girthtxt"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+    <Button
+    android:id="@+id/menuselect2"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:text="Select Measurement" 
+    android:layout_marginBottom="25dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:progressDrawable="@drawable/seekbar_custom"
+             android:thumb="@drawable/seekbutton_custom"
+             android:visibility="gone" />
+        <TextView
+            android:id="@+id/girthinmt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="#B64926"
+            android:textSize="30dp"
+            android:text=""
+            android:visibility="gone" />
+        
+        </LinearLayout>
+<TextView
+        android:id="@+id/extratxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/girthlayout2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#468966"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:text="Extra Information" />
+
+ <LinearLayout
+            android:id="@+id/extralayout2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/extratxt"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+        
+      <Button
+    android:id="@+id/extramenu1"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but"
+    android:textColor="#8E2800"
+    android:text="Nuisance on Tree" 
+    android:layout_marginBottom="15dp"/>
+      <Button
+    android:id="@+id/extramenu2"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but2"
+    android:textColor="#8E2800"
+    android:text="Health of Tree" 
+    android:layout_marginBottom="15dp"/>
+      <Button
+    android:id="@+id/extramenu3"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but3"
+    android:textColor="#8E2800"
+    android:text="Soil Condition" 
+    android:layout_marginBottom="15dp"/>
+      <Button
+    android:id="@+id/extramenu4"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but4"
+    android:textColor="#8E2800"
+    android:text="Found On Tree" 
+    android:layout_marginBottom="15dp"/>
+      <Button
+    android:id="@+id/extramenu5"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but5"
+    android:textColor="#8E2800"
+    android:text="Tree Status" 
+    android:layout_marginBottom="15dp"/>
+      <Button
+    android:id="@+id/extramenu6"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/menu_but6"
+    android:textColor="#8E2800"
+    android:text="Tree Hazards" 
+    android:layout_marginBottom="15dp"/>
+        
+        </LinearLayout>
+        <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/extralayout2"
+       android:layout_centerHorizontal="true" >
+   
+        <Button
+    android:id="@+id/takephotobut"
+    android:layout_width="240dp"
+    android:layout_height="60dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="35dp"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/addtreesbut"
+    android:hapticFeedbackEnabled="true"
+    android:text="Take Photo"
+    android:textColor="#ffffff" />
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

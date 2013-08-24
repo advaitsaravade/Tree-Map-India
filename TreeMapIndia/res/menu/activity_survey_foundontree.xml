@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/my_group" android:checkableBehavior="all"><item android:id="@+id/nest" android:titleCondensed="Nest" android:title="Nest"></item><item android:id="@+id/podsfruits" android:titleCondensed="Pods / Fruits" android:title="Pods / Fruits"></item><item android:id="@+id/flowers" android:titleCondensed="Flowers" android:title="Flowers"></item><item android:id="@+id/burrows" android:titleCondensed="Burrows" android:title="Burrows"></item><item android:id="@+id/none" android:titleCondensed="None" android:title="None"></item>
+    
+</group>
+</menu>

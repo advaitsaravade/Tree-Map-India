@@ -7,6 +7,4 @@ Advait saravade was given the specifications and requirements by Prof Jitendra S
 The initial efforts by M/S Gestell Technologies (Pune)  and supported by Pune LUG were terminated halfway by Gestell Technologies due to their own reasons.
 M/S Gestell Technologies had undertaken the job as paid job and they have been paid for their part. The initial version was paid for by M/S Sundaram Multi-Pap and hence has been uploaded on Google App Store by them.
 
-Advait Saravade has developed and is taking the application, from the scratch. 
-
-
+Advait Saravade has developed the source code from the scratch and is taking the same forward beyond functions from where earlier version stopped.
